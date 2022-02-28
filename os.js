@@ -54,6 +54,14 @@ let chapterid = document.getElementById("chapter").value
             select2.appendChild(o);
             }
     }
+    else if (document.getElementById("book").value === "Joshua") {
+        for (i = 1; i <= 24; i++) {
+            var o = document.createElement("option");
+            o.value = i;
+            o.text = i;
+            select2.appendChild(o);
+            }
+    }  
     else if (document.getElementById("book").value === "Judges") {
         for (i = 1; i <= 21; i++) {
             var o = document.createElement("option");
